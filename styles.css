@@ -1,0 +1,730 @@
+/* General Styles */
+* {
+    font-family: 'League Spartan', Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    color: #FFFFFF;
+    width: 96%;
+    height: 655vh;
+    margin: auto;
+    overflow-x: hidden;
+}
+
+header {
+    height: 14vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.main_logo {
+    width: 20%;
+}
+
+.menu_bar {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu {
+    width: 40%;
+    position: relative;
+    right: 15%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu > a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.menu > a:hover {
+    color: #ff5555;
+    transition: 0.2s;
+}
+
+.download_button {
+    display: flex;
+    justify-content: center;
+}
+
+.download_button > button {
+    color: white;
+    background-color: #121212d7;
+    border: none;
+    height: 7vh;
+    width: 17vh;
+    border-radius: 0.8vh;
+}
+
+.download_button > button:hover {
+    background-color: #000000;
+}
+
+section {
+    width: 100%;
+    height: 100%;
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+}
+
+.banner_msg > img {
+    position: relative;
+    bottom: 20vh;
+}
+
+.banner_msg > h1 {
+    color: #000000;
+    font-size: 8vh;
+    font-weight: 900;
+    word-spacing: -0.3cm;
+    position: relative;
+    bottom: 80vh;
+}
+
+.banner_msg > p {
+    color: #121212d7;
+    font-size: 2vh;
+    position: relative;
+    bottom: 85vh;
+}
+
+.button_icon {
+    width: 48%;
+    display: flex;
+    justify-content: space-between;
+    color: #000000;
+}
+
+.button_icon > button {
+    height: 7vh;
+    width: 20vh;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #121212e6;
+    border: none;
+    position: relative;
+    bottom: 84vh;
+}
+
+.button_icon > button:hover {
+    background-color: #000000;
+}
+
+.icon_video > i {
+    position: relative;
+    bottom: 82vh;
+}
+
+.icon_video > p {
+    position: relative;
+    bottom: 88vh;
+    left: 4vh;
+}
+
+.banner_down_img_star {
+    position: relative;
+    bottom: 70vh;
+}
+
+.banner_down_img {
+    position: relative;
+    bottom: 80vh;
+}
+
+.banner_img {
+    width: 40%;
+    display: flex;
+    justify-content: start;
+}
+
+.img_border {
+    position: relative;
+    bottom: 12vh;
+}
+
+.img1 {
+    position: relative;
+    right: 279vh;
+    bottom: 13vh;
+}
+
+.img2 {
+    position: relative;
+    right: 179vh;
+}
+
+.img3 {
+    position: relative;
+    top: 9vh;
+    right: 79vh;
+}
+
+.star_phone_msg {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    bottom: 60vh;
+}
+
+.img_blur {
+    position: relative;
+    bottom: 27vh;
+}
+
+.img_boundary {
+    position: relative;
+    bottom: 65vh;
+}
+
+.image_iphone {
+    position: relative;
+    bottom: 13vh;
+}
+
+.font {
+    width: 41%;
+    font-size: 1.6vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.font > h2 {
+    position: relative;
+    bottom: 2.6vh;
+    color: #000000;
+}
+
+.phone_msg {
+    color: black;
+}
+
+.phone_msg > p {
+    font-size: 2vh;
+    position: relative;
+    bottom: 5.5vh;
+    color: #121212d7;
+}
+
+.phone_msg > h1 {
+    color: #000000;
+    font-weight: 800;
+}
+
+.phone_msg > span {
+    position: relative;
+    top: 4vh;
+    color: #ff5555;
+}
+
+.last_blur_img {
+    position: relative;
+    left: 22vh;
+}
+
+.star_phone_msg1 {
+    width: 100%;
+    height: 200vh;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    bottom: 50vh;
+}
+
+.font_msg1 {
+    width: 55%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.font_msg1 > h2 {
+    font-size: 3vh;
+    position: relative;
+    bottom: 2.7vh;
+}
+
+.phone_msg1 > span {
+    color: #ff5555;
+    position: relative;
+    top: 4vh;
+}
+
+.phone_msg1 > h1 {
+    font-weight: 900;
+    font-size: 5.4vh;
+}
+
+.phone_msg1 > p {
+    position: relative;
+    bottom: 5vh;
+    font-size: 2.3vh;
+    line-height: 3.8vh;
+    color: #121212d7;
+}
+
+.phone_msg1 {
+    color: black;
+}
+
+.img_blur1 {
+    position: relative;
+    bottom: 16vh;
+}
+
+.img_boundary1 {
+    position: relative;
+    bottom: 71vh;
+}
+
+.img_iphone1 {
+    position: relative;
+    bottom: 10vh;
+    left: 10vh;
+}
+
+.star_phone_msg2 {
+    position: relative;
+    bottom: 170vh;
+    right: 12vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.img_iphone {
+    position: relative;
+    bottom: 10vh;
+}
+
+.phone_msg2 > p {
+    position: relative;
+    top: 0.1vh;
+    line-height: 3.8vh;
+}
+
+.phone_msg2 > h2 {
+    font-weight: 800;
+}
+
+.testimonial_area {
+    color: #000000;
+    position: relative;
+    bottom: 190vh;
+    right: 11vh;
+}
+
+.testimonial_area > p {
+    text-align: center;
+    font-size: 2vh;
+}
+
+.testimonial_area > h1 {
+    font-weight: 900;
+    color: #000000;
+    text-align: center;
+    position: relative;
+    bottom: 3.3vh;
+    line-height: 4.3vh;
+}
+
+.testimonial {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.testimonial_msg {
+    color: #000000;
+}
+
+.testimonial_msg > h2 {
+    font-size: 3.7vh;
+    font-weight: 800;
+}
+
+.testimonial_msg > p {
+    position: relative;
+    top: 0.1vh;
+    line-height: 3.8vh;
+    color: #121212d7;
+    font-size: 2vh;
+}
+
+.testimonial_msg > span {
+    position: relative;
+    right: 14.5vh;
+    top: 5vh;
+}
+
+.faq_area {
+    color: #000000;
+    position: relative;
+    bottom: 180vh;
+}
+
+.faq_area > p {
+    font-size: 2.5vh;
+    color: #ff5555;
+    position: relative;
+    left: 14vh;
+    top: 4vh;
+}
+
+.faq_area > h1 {
+    font-weight: 900;
+    font-size: 6vh;
+    line-height: 6vh;
+    position: relative;
+    left: 14vh;
+}
+
+.faq_ques {
+    color: #000000;
+}
+
+.ques_box1 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.ques_box2 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.ques_box3 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.ans_box4 {
+    position: relative;
+    left: 3vh;
+}
+
+.ans {
+    width: 38.9%;
+    height: 21vh;
+    padding: 1vh;
+    color: #000000
+}
+
+.ans > p {
+    font-size: 2.5vh;
+    color: #121212d6;
+}
+
+.ans_back {
+    padding: 2.5vh;
+    background-color: #ff5555;
+    border-radius: 1.5vh;
+}
+
+.ans_back > h2 {
+    color: #FFFFFF;
+    position: relative;
+    bottom: 2vh;
+}
+
+.ans_back > p {
+    color: #FFFFFF;
+    position: relative;
+    bottom: 2vh;
+}
+
+.banner_box {
+    width: 84%;
+    height: 65vh;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: #121212;
+    position: relative;
+    bottom: 160vh;
+}
+
+.banner_box_msg {
+    position: relative;
+    top: 14vh;
+    left: 29vh;
+}
+
+.banner_box_msg > h1 {
+    font-weight: 900;
+    font-size: 6vh;
+}
+
+.banner_box_msg > p {
+    font-size: 2vh;
+    color: antiquewhite;
+}
+
+.banner_box_msg > button {
+    background-color: #FFFFFF;
+    border: none;
+    height: 6vh;
+}
+
+.banner_box_msg > button:hover {
+    color: #FFFFFF;
+    background-color: #000000;
+    transition: 0.2s;
+}
+
+.banner_img2 {
+    position: relative;
+    left: 38vh;
+    top: 26vh;
+}
+
+.banner_img1 {
+    position: relative;
+    right: 21.4vh;
+    top: 4vh;
+}
+
+footer {
+    height: 40vh;
+    width: 95%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer_mail {
+    display: flex;
+    justify-content: space-between;
+    color: #000000;
+}
+
+.footer_mail > i {
+    position: relative;
+    top: 2.8vh;
+    color: #ff5555;
+}
+
+.footer_call {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    bottom: 3vh;
+    color: #000000;
+}
+
+.footer_call > i {
+    position: relative;
+    top: 2.8vh;
+    color: #ff5555;
+}
+
+.anchortag > a {
+    text-decoration: none;
+    color: #121212d7;
+    position: relative;
+}
+
+.anchortag > a:hover {
+    color: #000000;
+}
+
+.anchortag > h1 {
+    color: #000000;
+    font-size: 3.8vh;
+    font-weight: 100;
+}
+
+.email_button {
+    display: flex;
+    justify-content: space-between;
+}
+
+.email_button > p {
+    color: rgb(176, 171, 171);
+}
+
+.email_button > button {
+    height: 6vh;
+    width: 15vh;
+    color: #FFFFFF;
+    background-color: #000000;
+    border: none;
+    position: relative;
+    top: 1.5vh;
+    left: 5vh;
+    border-radius: 0.6vh;
+}
+
+.email_button > button:hover {
+    color: #000000;
+    background-color: #FFFFFF;
+}
+
+.copyright {
+    height: 15vh;
+    width: 70%;
+    margin: auto;
+    color: #000000;
+    border: 1px solid grey;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    text-align: center;
+}
+
+/* Responsive Styles */
+
+/* Mobile */
+@media only screen and (max-width: 600px) {
+    .menu_bar {
+        flex-direction: column;
+    }
+
+    .menu {
+        flex-direction: column;
+        position: static;
+        width: 100%;
+        align-items: center;
+    }
+
+    .menu > a {
+        margin: 1vh 0;
+    }
+
+    .download_button > button {
+        width: 100%;
+        height: auto;
+    }
+
+    .banner_msg > h1 {
+        font-size: 5vh;
+        bottom: 40vh;
+    }
+
+    .banner_msg > p {
+        font-size: 1.5vh;
+        bottom: 45vh;
+    }
+
+    .button_icon > button {
+        width: 45%;
+    }
+
+    .star_phone_msg, .star_phone_msg1, .star_phone_msg2 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .font, .font_msg1 {
+        width: 80%;
+        font-size: 2vh;
+    }
+
+    .faq_area > p, .faq_area > h1 {
+        left: 0;
+        text-align: center;
+    }
+
+    .faq_area {
+        padding: 0 5%;
+    }
+
+    footer {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/* Tablets */
+@media only screen and (min-width: 601px) and (max-width: 992px) {
+    .menu {
+        flex-direction: row;
+        justify-content: space-around;
+        width: 100%;
+        right: 0;
+    }
+
+    .banner_msg > h1 {
+        font-size: 6vh;
+    }
+
+    .banner_msg > p {
+        font-size: 1.8vh;
+    }
+
+    .button_icon > button {
+        width: 30%;
+    }
+
+    .star_phone_msg, .star_phone_msg1, .star_phone_msg2 {
+        flex-direction: column;
+    }
+
+    .font, .font_msg1 {
+        width: 70%;
+    }
+
+    .testimonial_area {
+        left: 0;
+    }
+
+    .testimonial_area > h1 {
+        font-size: 4vh;
+    }
+
+    .faq_area > p, .faq_area > h1 {
+        left: 0;
+        text-align: center;
+    }
+
+    footer {
+        flex-direction: column;
+    }
+}
+
+/* Laptops */
+@media only screen and (min-width: 993px) {
+    .menu {
+        justify-content: space-between;
+    }
+
+    .banner_msg > h1 {
+        font-size: 7vh;
+    }
+
+    .banner_msg > p {
+        font-size: 2vh;
+    }
+
+    .button_icon > button {
+        width: 25%;
+    }
+
+    .star_phone_msg, .star_phone_msg1, .star_phone_msg2 {
+        flex-direction: row;
+    }
+
+    .font, .font_msg1 {
+        width: 60%;
+    }
+
+    .testimonial_area {
+        left: 10vh;
+    }
+
+    .faq_area > p, .faq_area > h1 {
+        left: 10vh;
+        text-align: left;
+    }
+
+    footer {
+        flex-direction: row;
+    }
+}
